@@ -25,14 +25,14 @@ Think of it like apt/yum/homebrew for Kubernetes.
 - Charts are Helm packages that contain at least two things:
   - A description of the package (`Chart.yaml`)
   - One or more templates, which contain Kubernetes manifest files
-- Charts can be stored on disk, or fetched from remote chart repositories
+- Charts can be stored on disk or fetched from remote chart repositories
   (like Debian or RedHat packages)
 
 ## Install
 
 Binary downloads of the Helm client can be found on [the Releases page](https://github.com/helm/helm/releases/latest).
 
-Unpack the `helm` binary and add it to your PATH and you are good to go!
+Unpack the `helm` binary and add it to your PATH, and you are good to go!
 
 If you want to use a package manager:
 
